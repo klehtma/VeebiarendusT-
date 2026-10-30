@@ -1,1 +1,37 @@
+:root {
+    --primary-color: #2563eb;
+    --background-color: #bdccdc;
+    --secondary-color: #64748b;
+
+    --font-family: Arial, sans-serif;
+}
+
+.nav-container {
+    padding: 1%;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 25px 12px rgba(0, 0, 0, 0.15);
+    height: 220%;
+    position: sticky;
+
+}
+
+.nav-element {
+    border: 3px solid var(--background-color);
+    padding: 1%;
+    border-radius: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-weight: bold;
+    transition: background-color 0.3s ease,
+        transform 0.3s ease;
+    font-size: 1.5rem;
+}
+
+.nav-element:hover {
+    background-color: #bdccdc;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
 
