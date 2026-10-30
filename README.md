@@ -10,4 +10,4 @@ Tiimi liikmed: Karl Erik Lehtma, Andreas Alaveer, Kevin Soieva
 
 ## Tööjaotus
 
-Kõik on arendajad ja igaüks teeb ühe lehe. Projekti struktuur ja disain on kokku lepitud.
+Kõik on arendajad ja igaüks teeb ühe lehe. Projekti struktuur ja disain on ühiselt välja mõeldud.

@@ -1,0 +1,19 @@
+
+body {
+    background-color: var(--background-color);
+    font-family: var(--font-family);
+    margin: 0;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    border-bottom: 2px solid var(--secondary-color)
+    
+}
+
+.title-content {
+    font-weight: bold;
+    font-size: 400%;
+}
