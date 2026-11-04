@@ -17,3 +17,45 @@ body {
     font-weight: bold;
     font-size: 400%;
 }
+
+.main-section {
+    padding: 4%;
+}
+
+.first-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 8%;
+}
+
+.section-title {
+    font-weight: bold;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column; /*places viide below the text instead of side by side*/
+    justify-content: center; 
+    font-size: var(--font-size)
+}
+
+.right-section {
+    display: flex;
+    justify-content: center;
+}
+
+.right-section img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+}
+
+.second-section {
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.second-section-visible {
+    opacity: 1;
+    transform: translateY(-10px);
+}
