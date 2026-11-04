@@ -2,8 +2,8 @@
     --primary-color: #2563eb;
     --background-color: #bdccdc;
     --secondary-color: #64748b;
-
     --font-family: Arial, sans-serif;
+    --font-size: 120%
 }
 
 .nav-container {
@@ -14,7 +14,6 @@
     box-shadow: 0 25px 12px rgba(0, 0, 0, 0.15);
     height: 220%;
     position: sticky;
-
 }
 
 .nav-element {
@@ -24,9 +23,9 @@
     margin-left: 2%;
     margin-right: 2%;
     font-weight: bold;
-    transition: background-color 0.3s ease,
-        transform 0.3s ease;
     font-size: 1.5rem;
+    
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .nav-element:hover {
