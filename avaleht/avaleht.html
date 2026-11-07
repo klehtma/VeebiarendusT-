@@ -12,23 +12,62 @@
 <body>
     <div class="nav-container">
 
-        <div class="nav-element" onclick="window.location.href='../avaleht/avaleht.html'">
+        <div class="nav-element active" onclick="window.location.href='../avaleht/avaleht.html'">
             Avalehele
         </div>
 
         <div class="nav-element" onclick="window.location.href='../lisaleht1/lisaleht1.html'">
-            Lisaleht1
+            Positsioonid
         </div>
 
         <div class="nav-element" onclick="window.location.href='../lisaleht2/lisaleht2.html'">
-            Lisaleht2
+            Ajalugu
         </div>
 
     </div>
-    <div class="title">
-        <p class="title-content">Avaleht</p>
-    </div>
-    <div class="title-line"></div>
 
-    <img src="avaleht_jalka.jpg" alt="Jalka">
+    <section class="hero">
+        <img src="./static/avaleht_jalka.jpg"
+            alt="Jalgpall"
+            class="football-image">
+
+        <div class="hero-text">
+            <h1>Jalgpall on rohkem kui lihtsalt mäng</h1>
+            <p>Avasta jalgpalli põnev maailm!</p>
+        </div>
+    </section>
+
+    <section class="introduction">
+    <h2>Mis on jalgpall?</h2>
+
+    <p>
+        Jalgpall on maailma üks populaarsemaid spordialasid.
+        Mängus osalevad kaks 11-liikmelist võistkonda,
+        kelle eesmärk on lüüa pall vastase väravasse.
+    </p>
+    </section>
+
+    <section class="explore">
+        <h2>Avasta jalgpalli lähemalt</h2>
+
+        <div class="explore-cards">
+
+            <a href="../lisaleht1/lisaleht1.html" class="explore-card">
+                <h3>Positsioonid</h3>
+                <p>
+                    Tutvu jalgpallurite erinevate positsioonide
+                    ja nende ülesannetega väljakul.
+                </p>
+            </a>
+
+            <a href="../lisaleht2/lisaleht2.html" class="explore-card">
+                <h3>Ajalugu</h3>
+                <p>
+                    Avasta jalgpalli kujunemislugu ja
+                    tähtsamad sündmused läbi aegade.
+                </p>
+            </a>
+        </div>
+    </section>
+</body>
 </html>

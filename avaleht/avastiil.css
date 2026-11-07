@@ -16,3 +16,109 @@ body {
     font-weight: bold;
     font-size: 400%;
 }
+
+.football-image {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.hero {
+    max-width: 1200px;
+    margin: 30px auto;
+    overflow: hidden;
+    border-radius: 15px;
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    color: white;
+    z-index: 1;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0)
+    );
+}
+
+.nav-container {
+    background-color: #1c3545;
+    padding: 15px 20px;
+    height: auto;
+    gap: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.nav-element {
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background-color: transparent;
+}
+
+.nav-element.active {
+    background-color: #b6f257;
+    color: #1c3545;
+}
+
+.introduction {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 30px;
+}
+
+.introduction h2 {
+    font-size: 2.2rem;
+    color: #1c3545;
+    margin-bottom: 20px;
+}
+
+.introduction p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #334155;
+    margin: 40px auto 0;
+}
+
+.explore {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 30px;
+    margin: 0 auto 60px;
+}
+
+.explore-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.explore-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #1c3545;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.explore-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.18);
+}
