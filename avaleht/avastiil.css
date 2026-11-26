@@ -4,18 +4,6 @@ body {
     margin: 0;
 }
 
-.title {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 5%;
-    border-bottom: 2px solid var(--secondary-color);
-    
-}
-
-.title-content {
-    font-weight: bold;
-    font-size: 400%;
-}
 
 .football-image {
     width: 100%;
@@ -51,8 +39,10 @@ body {
 }
 
 .nav-container {
+    display: flex;
+    align-items: center;
     background-color: #1c3545;
-    padding: 15px 20px;
+    padding: 10px 30px;
     height: auto;
     gap: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
@@ -77,13 +67,14 @@ body {
 
 .introduction {
     max-width: 1000px;
-    margin: 60px auto;
-    padding: 30px;
+    margin: 20px auto;
+    padding: 10px 30px;
 }
 
 .introduction h2 {
     font-size: 2.2rem;
     color: #1c3545;
+    margin-top: 0;
     margin-bottom: 20px;
 }
 
@@ -91,13 +82,13 @@ body {
     font-size: 1.1rem;
     line-height: 1.8;
     color: #334155;
-    margin: 40px auto 0;
+    margin: 15px 0;
 }
 
 .explore {
     max-width: 1000px;
-    padding: 30px;
-    margin: 0 auto 60px;
+    padding: 10px 30px;
+    margin: 0 auto 30px;
 }
 
 .explore-cards {
@@ -124,7 +115,7 @@ body {
 
 .quiz {
     max-width: 1000px;
-    margin: 0 auto 60px;
+    margin: 0 auto 20px;
     padding: 30px;
 }
 
@@ -254,3 +245,233 @@ body {
         height: 250px;
     }
 }
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.nav-logo img {
+    width: 180px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.footer {
+    background-color: #1c3545;
+    color: white;
+    padding: 40px 30px 20px;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 60px;
+}
+
+.footer-logo {
+    height: 45px;
+    width: auto;
+}
+
+.footer h3 {
+    color: #b6f257;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    color: #cbd5e1;
+    line-height: 1.8;
+}
+
+.footer-links a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 12px;
+}
+
+.footer-links a:hover {
+    color: #b6f257;
+}
+
+.footer-project p {
+    margin: 8px 0;
+}
+
+.footer-bottom {
+    max-width: 1200px;
+    margin: 20px auto 0;
+    padding-top: 15px;
+    border-top: 1px solid #49606d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-bottom button {
+    background-color: transparent;
+    color: #b6f257;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.footer-bottom button:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+}
+
+.statistics {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px 30px;
+}
+
+.statistics h2 {
+    font-size: 2.2rem;
+    color: #1c3545;
+}
+
+.statistics-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.statistics-card {
+    background-color: #1c3545;
+    color: white;
+    padding: 30px 15px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.statistics-card:hover {
+    transform: translateY(-6px);
+}
+
+.stat-number {
+    font-size: 2.8rem;
+    color: #b6f257;
+    margin: 0;
+}
+
+.statistics-card p {
+    margin: 15px 0 0;
+    font-size: 1rem;
+}
+
+@media (max-width: 800px) {
+    .nav-container {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        gap: 5px;
+        padding: 8px 10px;
+    }
+
+    .nav-logo {
+        width: auto;
+        margin-right: auto;
+    }
+
+    .nav-logo img {
+        width: 100px;
+        height: auto;
+    }
+
+    .nav-element {
+        font-size: 0.8rem;
+        padding: 8px;
+        margin: 0;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 400px) {
+    .nav-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-logo {
+        width: 100%;
+        justify-content: center;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .statistics-cards {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+    }
+
+    .statistics-card {
+        padding: 20px 10px;
+    }
+
+    .stat-number {
+        font-size: 2rem;
+    }
+
+    .explore-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .hero {
+        margin: 15px 10px;
+    }
+
+    .football-image {
+        height: 350px;
+    }
+
+    .hero-text {
+        left: 20px;
+        right: 20px;
+        bottom: 20px;
+    }
+
+    .hero-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .introduction,
+    .statistics,
+    .explore,
+    .gallery,
+    .quiz {
+        padding: 15px;
+        margin: 15px auto;
+    }
+
+    .quiz-card {
+        padding: 15px;
+    }
+
+    .gallery-controls {
+        padding: 10px;
+    }
+
+    .gallery-controls button {
+        padding: 10px;
+    }
+}
+
