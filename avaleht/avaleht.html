@@ -69,5 +69,46 @@
             </a>
         </div>
     </section>
+    <section class="gallery">
+        <h2>Jalgpall piltides</h2>
+
+        <div class="gallery-card">
+
+            <img id="gallery-image"
+                src="./static/barcelona.jpg"
+                alt="Barcelona">
+
+            <div class="gallery-controls">
+
+                <button onclick="previousImage()">&#10094;</button>
+
+                <div>
+                    <p id="gallery-description">Barcelona</p>
+                    <p id="gallery-counter">1 / 4</p>
+                </div>
+
+                <button onclick="nextImage()">&#10095;</button>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="quiz">
+    <h2>Pane oma teadmised proovile!</h2>
+
+    <div class="quiz-card">
+        <p id="question-number"></p>
+        <h3 id="question"></h3>
+
+        <div id="answers"></div>
+
+        <p id="feedback"></p>
+
+        <button id="next-button">
+            Järgmine küsimus
+        </button>
+        </div>
+    </section>
+    <script src="avaleht.js"></script>
 </body>
 </html>
