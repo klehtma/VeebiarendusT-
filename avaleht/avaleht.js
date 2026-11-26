@@ -190,18 +190,6 @@ function previousImage() {
     showImage();
 }
 
-
-// ==================== TAGASI ÜLES KERIMINE ====================
-
-// Kerib jaluses olevale nupule vajutamisel sujuvalt lehe algusesse.
-function scrollToTop() {
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-    });
-}
-
-
 // ==================== ANIMEERITUD STATISTIKA ====================
 
 // Leiab kõik statistikanumbreid sisaldavad HTML-elemendid.
