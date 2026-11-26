@@ -3,9 +3,7 @@
 <html lang="et">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avaleht</title>
-    <link rel="icon" type="image/png" href="./static/rodeo_logo_ilma_tekstita.png">
     <link rel="stylesheet" type="text/css" href="../main.css">
     <link rel="stylesheet" type="text/css" href="avastiil.css">
 </head>
@@ -13,199 +11,24 @@
 
 <body>
     <div class="nav-container">
-        <a href="../avaleht/avaleht.html" class="nav-logo">
-            <img src="./static/rodeo_logo.png" alt="Jalgpalli logo">
-        </a>
 
-        <div class="nav-element active" onclick="window.location.href='../avaleht/avaleht.html'">
+        <div class="nav-element" onclick="window.location.href='../avaleht/avaleht.html'">
             Avalehele
         </div>
 
         <div class="nav-element" onclick="window.location.href='../lisaleht1/lisaleht1.html'">
-            Positsioonid
+            Lisaleht1
         </div>
 
         <div class="nav-element" onclick="window.location.href='../lisaleht2/lisaleht2.html'">
-            Ajalugu
+            Lisaleht2
         </div>
 
     </div>
+    <div class="title">
+        <p class="title-content">Avaleht</p>
+    </div>
+    <div class="title-line"></div>
 
-    <section class="hero">
-        <img src="./static/avaleht_jalka.jpg"
-            alt="Jalgpall"
-            class="football-image">
-
-        <div class="hero-text">
-            <h1>Jalgpall on rohkem kui lihtsalt mäng</h1>
-            <p>Avasta jalgpalli põnev maailm!</p>
-        </div>
-    </section>
-
-    <section class="introduction">
-        <h2>Mis on jalgpall?</h2>
-
-        <p>
-            Jalgpall on üks maailma populaarsemaid spordialasid,
-            mis ühendab miljoneid mängijaid ja fänne üle kogu maailma.
-            Mängus osalevad kaks 11-liikmelist võistkonda, kelle
-            eesmärk on lüüa pall vastase väravasse ning takistada
-            vastasel väravate löömist.
-        </p>
-
-        <p>
-            Tavapärane jalgpallimäng kestab 90 minutit ja jaguneb
-            kaheks 45-minutiliseks poolajaks. Mängijad kasutavad
-            palli kontrollimiseks peamiselt jalgu, kuid ka pead
-            ja teisi lubatud kehaosi. Ainult väravavahil on õigus
-            oma karistusalas reeglite piires palli käega mängida.
-            Jalgpallis on olulisel kohal meeskonnatöö, tehnilised
-            oskused, vastupidavus ja taktikaline mõtlemine.
-        </p>
-
-        <p>
-            Jalgpall on palju enamat kui lihtsalt sport.
-            See ühendab erinevaid kultuure ja rahvusi ning loob
-            tugeva kogukonnatunde. Jalgpalli mängitakse nii
-            professionaalsel tasemel suurtes staadionites kui ka
-            harrastajate seas koolides, parkides ja koduhoovides.
-            Mängu lihtsus ja kättesaadavus on teinud sellest
-            ülemaailmselt armastatud spordiala.
-        </p>
-    </section>
-
-    <section class="statistics">
-    <h2>Jalgpall numbrites</h2>
-
-    <div class="statistics-cards">
-
-        <div class="statistics-card">
-                <h3 class="stat-number" data-target="90">0</h3>
-                <p>Minutit mänguaega</p>
-            </div>
-
-            <div class="statistics-card">
-                <h3 class="stat-number" data-target="11">0</h3>
-                <p>Mängijat võistkonnas</p>
-            </div>
-
-            <div class="statistics-card">
-                <h3 class="stat-number" data-target="7.32">0</h3>
-                <p>Meetrit värava laiust</p>
-            </div>
-
-            <div class="statistics-card">
-                <h3 class="stat-number" data-target="1930">0</h3>
-                <p>Esimene jalgpalli MM</p>
-            </div>
-
-        </div>
-    </section>
-
-    <section class="explore">
-        <h2>Avasta jalgpalli lähemalt</h2>
-
-        <div class="explore-cards">
-
-            <a href="../lisaleht1/lisaleht1.html" class="explore-card">
-                <h3>Positsioonid</h3>
-                <p>
-                    Tutvu jalgpallurite erinevate positsioonide
-                    ja nende ülesannetega väljakul.
-                </p>
-            </a>
-
-            <a href="../lisaleht2/lisaleht2.html" class="explore-card">
-                <h3>Ajalugu</h3>
-                <p>
-                    Avasta jalgpalli kujunemislugu ja
-                    tähtsamad sündmused läbi aegade.
-                </p>
-            </a>
-        </div>
-    </section>
-    <section class="gallery">
-        <h2>Jalgpall piltides</h2>
-
-        <div class="gallery-card">
-
-            <img id="gallery-image"
-                src="./static/barcelona.jpg"
-                alt="Barcelona">
-
-            <div class="gallery-controls">
-
-                <button onclick="previousImage()">&#10094;</button>
-
-                <div>
-                    <p id="gallery-description">Barcelona</p>
-                    <p id="gallery-counter">1 / 4</p>
-                </div>
-
-                <button onclick="nextImage()">&#10095;</button>
-
-            </div>
-        </div>
-    </section>
-
-    <section class="quiz">
-    <h2>Pane oma teadmised proovile!</h2>
-
-    <div class="quiz-card">
-        <p id="question-number"></p>
-        <h3 id="question">Mitu mängijat on ühel jalgpallivõistkonnal väljakul?</h3>
-
-        <div id="answers"></div>
-
-        <p id="feedback"></p>
-
-        <button id="next-button">
-            Järgmine küsimus
-        </button>
-        </div>
-    </section>
-    <footer class="footer">
-
-        <div class="footer-content">
-
-        <div class="footer-about">
-            <img src="./static/rodeo_logo.png"
-                 alt="RODEO logo"
-                 class="footer-logo">
-
-            <p>
-                Avasta jalgpalli põnev maailm ning õpi tundma
-                mängu, selle ajalugu ja positsioone.
-            </p>
-        </div>
-
-        <div class="footer-links">
-            <h3>Navigatsioon</h3>
-
-            <a href="../avaleht/avaleht.html">Avaleht</a>
-            <a href="../lisaleht1/lisaleht1.html">Positsioonid</a>
-            <a href="../lisaleht2/lisaleht2.html">Ajalugu</a>
-        </div>
-
-        <div class="footer-project">
-            <h3>Projektist</h3>
-
-            <p>Tartu Ülikool</p>
-            <p>Veebiarenduse rühmatöö</p>
-            <p>2026</p>
-        </div>
-
-        </div>
-
-        <div class="footer-bottom">
-            <p>© 2026 RODEO</p>
-
-            <button onclick="scrollToTop()">
-                Tagasi üles ↑
-            </button>
-        </div>
-
-    </footer>
-    <script src="avaleht.js"></script>
-</body>
+    <img src="avaleht_jalka.jpg" alt="Jalka">
 </html>
