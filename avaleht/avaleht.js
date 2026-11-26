@@ -5,6 +5,7 @@
 // ==================== VIKTORIIN ====================
 
 // Viktoriini küsimused, vastusevariandid ja õigete vastuste indeksid.
+// https://stackoverflow.com/questions/72774047/hiding-current-object-in-array-with-javascript
 // Indeksite lugemine algab nullist.
 const questions = [
     {
@@ -132,6 +133,7 @@ showQuestion();
 
 // ==================== PILDIGALERII ====================
 
+// https://stackoverflow.com/questions/49822026/javascript-array-for-an-image-gallery-with-next-and-prev-functions/49822415
 // Galeriis kasutatavate piltide failiteed.
 const images = [
     "./static/barcelona.jpg",
@@ -192,6 +194,7 @@ function previousImage() {
 
 // ==================== ANIMEERITUD STATISTIKA ====================
 
+// https://stackoverflow.com/questions/72774047/hiding-current-object-in-array-with-javascript
 // Leiab kõik statistikanumbreid sisaldavad HTML-elemendid.
 const numbers = document.querySelectorAll(".stat-number");
 
