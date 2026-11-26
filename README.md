@@ -49,5 +49,12 @@ RODEO logo on loodud Canva abil.
 
 ### JavaScript
 
-Avalehe JavaScripti loomisel kasutati ChatGPT abi:
-https://chatgpt.com/
+Animeeritud statistika:
+https://stackoverflow.com/questions/68458839/intersection-observer-and-animated-number-counter
+
+Pildi gallerii:
+https://stackoverflow.com/questions/49822026/javascript-array-for-an-image-gallery-with-next-and-prev-functions/49822415
+
+Teadmiste proovile panemise quiz:
+https://stackoverflow.com/questions/72774047/hiding-current-object-in-array-with-javascript
+
