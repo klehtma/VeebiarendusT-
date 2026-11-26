@@ -1,5 +1,5 @@
 // JavaScripti loomisel kasutatud abivahend:
-// ChatGPT (https://chatgpt.com/)
+// Stackoverflow arutused, lingid README failis
 
 
 // ==================== VIKTORIIN ====================
